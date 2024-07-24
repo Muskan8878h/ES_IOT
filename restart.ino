@@ -4,6 +4,7 @@ void setup()
   Serial.begin(9600);
   pinMode(BUTTON_PIN, INPUT_PULLUP);
 }
+
 void loop()
 {
   byte buttonState = digitalRead(BUTTON_PIN);
