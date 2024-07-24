@@ -2,6 +2,7 @@
 #define Drunk 1500   // Define min value that we consider drunk
 #define MQ3 0
 #define ledPin 6
+
 float sensorValue;  //variable to store sensor value
 void setup() {
   Serial.begin(9600); // sets the serial port to 9600
