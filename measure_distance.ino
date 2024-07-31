@@ -1,4 +1,4 @@
-// defines pins numbers
+git // defines pins numbers
 const int trigPin = 4;
 const int echoPin = 5;
 // defines variables
